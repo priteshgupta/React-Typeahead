@@ -1,5 +1,5 @@
 {
-  "name": "React-Typeahead",
+  "name": "simple-react-typeahead",
   "version": "0.1.0",
   "description": "Quite Possibly the Simplest React Typeahead",
   "main": "typeahead.js",
