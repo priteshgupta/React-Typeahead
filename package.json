@@ -1,0 +1,27 @@
+{
+  "name": "React-Typeahead",
+  "version": "0.1.0",
+  "description": "Quite Possibly the Simplest React Typeahead",
+  "main": "typeahead.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/priteshgupta/React-Typeahead"
+  },
+  "keywords": [
+    "React",
+    "UI",
+    "Typeahead"
+  ],
+  "author": "Pritesh Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/priteshgupta/React-Typeahead/issues"
+  },
+  "homepage": "https://github.com/priteshgupta/React-Typeahead"
+}
