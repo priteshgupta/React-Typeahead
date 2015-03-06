@@ -1,5 +1,7 @@
 module.exports = (function(React) {
   'use strict';
+  
+  var React = require( 'react' );
 
   return React.createClass({
     getInitialState: function() {
