@@ -1,7 +1,17 @@
 module.exports = (function(React) {
   'use strict';
   
-  var React = require( 'react' );
+  var React = require( 'react' ),
+      customWhere = function customWhere(arr, t) {
+        var results = [];
+        for(var i = 0, len = arr.length; i < len; i++) {
+          var item = arr[i];
+            if (t(item)) {
+              results.push(item);
+            }
+        }
+        return results;
+      };
 
   return React.createClass({
     getInitialState: function() {
